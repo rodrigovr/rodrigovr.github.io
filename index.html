@@ -1,90 +1,98 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Rodrigo's CV</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rodrigo's CV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-<div class="container">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+<div class="container box">
     <header class="page-header">
         <h1>Rodrigo Valceli Raimundo</h1>
-        <p>B. Sc. Computer Science</p>
-        <p>Contact options</p>
+        <div class="row">
+            <div class="col-xs-8">
+
+                <p>B. Sc. Computer Science</p>
+            </div>
+
+            <div class="col-xs-4 well">
+                <a href="mailto:rodrigovalceli@gmail.com">
+                    <img class="icon" src="img/email.png" alt="skype"/>
+                    rodrigovalceli@gmail.com
+                </a><br/>
+                <a href="skype:rodrigo.valceli.raimundo">
+                    <img class="icon" src="img/skype.png" alt="skype"/>
+                    rodrigo.valceli.raimundo
+                </a><br/>
+                <a href="tel:+554899213236">
+                    <img class="icon" src="img/whatsapp.png" alt="mobile|whatsapp"/>
+                    +55 48 9921 3236
+                </a>
+            </div>
+        </div>
     </header>
 
-    <div class="clearfix">
-        <h2>Experience</h2>
-        <ul class="timeline">
-            <li><div class="tldate">Apr 2014</div></li>
-
-            <li>
-              <div class="tl-circ"></div>
-              <div class="timeline-panel">
-                <div class="tl-heading">
-                  <h4>Surprising Headline Right Here</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3 hours ago</small></p>
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Experience</h2>
                 </div>
-                <div class="tl-body">
-                  <p>Lorem Ipsum and such.</p>
+                <div class="panel-body">
+                <ul>
+                    <li></li>
+                </ul>
                 </div>
-              </div>
-            </li>
-
-            <li class="timeline-inverted">
-              <div class="tl-circ"></div>
-              <div class="timeline-panel">
-                <div class="tl-heading">
-                  <h4>Breaking into Spring!</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 4/07/2014</small></p>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Skills</h2>
                 </div>
-                <div class="tl-body">
-                  <p>Hope the weather gets a bit nicer...</p>
-
-                  <p>Y'know, with more sunlight.</p>
+                <div class="panel-body">
+                <ul>
+                    <li>Linux Servers (Ubuntu, Debian, RHEL)</li>
+                    <li>Virtualization (KVM, VBox) and Containers (LXC) </li>
+                    <li>Web Servers (Apache, Lighttpd)</li>
+                    <li>Email systems (Postfix + Dovecot)</li>
+                    <li>DNS (Dnsmasq, Bind)</li>
+                    <li>Shell scripting and common tools (like SSH)</li>
+                </ul>
                 </div>
-              </div>
-            </li>
-        </ul>
-    </div>
-
-    <div>
-        <h2>Skills</h2>
-    </div>
-
-    <div>
-        <h2>Interests</h2>
+            </div>
+        </div>
     </div>
 </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+</body>
 </html>
