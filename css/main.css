@@ -84,3 +84,10 @@ ul {
    margin: 15px auto;
    display: block;
 }
+
+.place {
+    line-height: 12pt;
+    font-size: 10pt;
+    font-style: italic;
+    color: darkslategray;
+}
