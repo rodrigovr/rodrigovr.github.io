@@ -91,3 +91,14 @@ ul {
     font-style: italic;
     color: darkslategray;
 }
+
+.obs {
+    text-align: right;
+    color: darkgoldenrod;
+    
+}
+
+.bottom {
+    margin-top: 100px;
+    font-style: italic;
+}
