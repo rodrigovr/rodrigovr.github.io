@@ -1,0 +1,3 @@
+[submodule "portfolio/2048js"]
+	path = portfolio/2048js
+	url = https://github.com/rodrigovr/2048js.git
